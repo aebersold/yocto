@@ -1,7 +1,7 @@
 <?php
     $pass = "yocto"; // PASSWORD FOR ADMIN
 
-    $strings = file_get_contents('./text.json') or die ("Unable to open text-file");
+    $strings = file_get_contents('./content.json') or die ("Unable to open text-file");
     $strings = json_decode($strings, true);
 
     if (isset($_POST['password'])) {
@@ -11,7 +11,7 @@
             {
                 $strings[$key] = $_POST[$key];
             }
-            file_put_contents('./text.json', json_encode($strings)) or die ("Unable to write text-file"); 
+            file_put_contents('./content.json', json_encode($strings)) or die ("Unable to write text-file"); 
             $msg = "Saved all changes!";
         } else {
             echo "Password is not correct. Use the back button of your browser and try again!";

@@ -1,11 +1,10 @@
 # yocto CMS
 
-yocto CMS is a minimal flat file CMS. All content is stored in a single text file using JSON. There is nothing more to it. It comes with a password protected admin interface. There is no page tree, no users, no file uploads.
+yocto is a minimal flat file CMS. All content is stored in a single text file using JSON. There is nothing more to it. It comes with a password protected admin interface. There is no page tree, no users, no file uploads.
 
-### Name
 I needed something wich means "really small". Yocto is the smallest offical SI prefix, hence the name.
 
-### How to use yocto
+## How to use yocto
 
 Check out index.php, it should be self-explanatory.
 
@@ -22,11 +21,11 @@ To use content from yocto, you have to include `yocto.php`. To insert content in
 </html>
 ```
 
-### Admin / Backend
+### Change content
 
 ![yocto Admin](/admin.jpg)
 
-If you want to change your content, just go to `/admin.php`, make your changes, enter the password and save them. If you need a new field, add it to the JSON manually (this feature might be added later on).
+If you want to change your content, just point your browser to `/admin.php`, make your changes, enter the password and save them. If you need a new field, add it to the JSON manually (this feature might be added later on).
 
 ### Author
 

@@ -1,5 +1,5 @@
 <?php
-$strings = file_get_contents('./text.json') or die ("Unable to open text-file");
+$strings = file_get_contents('./content.json') or die ("Unable to open text-file");
 $strings = json_decode($strings, true);
 
 /**
