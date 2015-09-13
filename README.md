@@ -27,7 +27,7 @@ To get started with yocto, include `yocto.php` in all pages you need dynamic con
 
 If you want to change your content, just point your browser to `/admin.php`, make your changes, enter the password and save them. If you need a new field, add it to the JSON manually (this feature might be added later on).
 
-The file `content.json` needs to be writeable to save changes.
+The file `content.json` needs to be writable to save changes.
 
 ### Author
 
