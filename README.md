@@ -1,6 +1,6 @@
 # yocto CMS
 
-yocto is a minimal flat file CMS. All content is stored in a single text file using JSON. There is nothing more to it. It comes with a password protected admin interface. There is no page tree, no users, no file uploads.
+yocto is a minimal flat file CMS written in PHP. All content is stored in a single text file using JSON. There is nothing more to it. It comes with a password protected admin interface. There is no page tree, no users, no file uploads.
 
 I needed something wich means "really small". Yocto is the smallest offical SI prefix, hence the name.
 
@@ -8,7 +8,7 @@ I needed something wich means "really small". Yocto is the smallest offical SI p
 
 Check out index.php, it should be self-explanatory.
 
-To use content from yocto, you have to include `yocto.php`. To insert content in your pages, use `<?= t('fieldname') ?>`. That's it.
+To get started with yocto include `yocto.php` in all pages you need dynamic content. To insert a content block in your pages, use `<?= t('fieldname') ?>`. That's it.
 
 ```php
 <?php
