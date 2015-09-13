@@ -10,7 +10,7 @@ I needed something wich means "really small". Yocto is the smallest offical SI p
 
 Check out index.php, it should be self-explanatory.
 
-To get started with yocto, include `yocto.php` in all pages you need dynamic content. To insert a content block in your pages, use `<?= t('fieldname') ?>`. That's it.
+To get started with yocto, include `yocto.php` in all pages you need dynamic content. To insert a content block in your pages, use `<?= y('fieldname') ?>`. That's it.
 
 ```php
 <?php
