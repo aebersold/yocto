@@ -2,7 +2,7 @@
 
 yocto is a minimal flat file CMS written in PHP. All content is stored in a single text file using JSON. There is nothing more to it. It comes with a password protected admin interface. There is no page tree, no users, no file uploads.
 
-yocto was created for very small sites where a fully featured CMS would be overkill but where the content has to be editable to some degree. yocto is user friendly enough, so that a non-technical person can change some content without breaking anything.
+yocto was created for very small sites where a fully featured CMS would be overkill but where the content has to be editable to some degree. yocto is user friendly enough to allow non-technical people change content without breaking anything.
 
 I needed something wich means "really small". Yocto is the smallest offical SI prefix, hence the name.
 
