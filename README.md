@@ -8,7 +8,7 @@ I needed something wich means "really small". Yocto is the smallest offical SI p
 
 Check out index.php, it should be self-explanatory.
 
-To get started with yocto include `yocto.php` in all pages you need dynamic content. To insert a content block in your pages, use `<?= t('fieldname') ?>`. That's it.
+To get started with yocto, include `yocto.php` in all pages you need dynamic content. To insert a content block in your pages, use `<?= t('fieldname') ?>`. That's it.
 
 ```php
 <?php
@@ -26,6 +26,8 @@ To get started with yocto include `yocto.php` in all pages you need dynamic cont
 ![yocto Admin](/admin.jpg)
 
 If you want to change your content, just point your browser to `/admin.php`, make your changes, enter the password and save them. If you need a new field, add it to the JSON manually (this feature might be added later on).
+
+The file `content.json` needs to be writeable to save changes.
 
 ### Author
 
