@@ -22,7 +22,9 @@ To use content from yocto, you have to include `yocto.php`. To insert content in
 
 ## Admin / Backend
 
-If you want to change your content, just go to `/admin.php`, make your changes, enter the password and save them.
+![yocto Admin](/admin.jpg)
+
+If you want to change your content, just go to `/admin.php`, make your changes, enter the password and save them. If you need a new field, add it to the JSON manually (this feature might be added later on).
 
 ## Author
 
