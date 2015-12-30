@@ -1,6 +1,6 @@
 # yocto CMS
 
-yocto is a minimal flat file CMS written in PHP. All content is stored in a single text file using JSON. There is nothing more to it. It comes with a password protected admin interface. There is no page tree, no users, no file uploads.
+yocto is a minimal flat file CMS written in PHP. All content is stored in a text file using the JSON format. yocto comes with a password protected admin interface to edit the content. There is no page tree, no users, no file uploads. There is nothing more to it. 
 
 yocto was created for very small sites where a fully featured CMS would be overkill but where the content has to be editable to some degree. yocto is user friendly enough to allow non-technical people change content without breaking anything.
 
@@ -27,7 +27,7 @@ To get started with yocto, include `yocto.php` in all pages you need dynamic con
 
 ![yocto Admin](/admin.jpg)
 
-If you want to change your content, just point your browser to `/admin.php`, make your changes, enter the password and save. If you need a new field, add it to the JSON manually. This is intentional, only the developer should be able to add new fields during development.
+If you want to change your content, just point your browser to `/admin.php`, make your changes, enter the password and save. If you need a new field, add it to the JSON manually. This is intentional, only the developer should be able to add new fields.
 
 The file `content.json` needs to be writable to save changes.
 
